@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { title } from 'process';
 import { Netplis } from './models/Netplis';
 
 @Component({
