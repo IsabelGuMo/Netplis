@@ -1,1 +1,11 @@
-<p>hero works!</p>
+<div class="hero">
+    <h2>{{hero.title}}</h2>
+    
+        <ul class="hero-gallery">
+         <ng-container *ngFor="let img of hero.imgGallery">
+             <li>
+                 <img src="{{img.src}}" alt="{{img.alt}}"/>
+             </li>
+        </ng-container>
+        </ul>   
+</div>

@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
     navbar: {
       title: "NetPlis",
       logo: {
-        src: "../../../assets/img-netplis/logo.png",
+        src: "../../../assets/images/img-netplis/logo.png",
         alt: "Netplis Logo"
       }
     },
@@ -21,23 +21,23 @@ export class HomeComponent implements OnInit {
       title: "Top 5 global",
       imgGallery: [
         {
-          src: "../../../assets/img-netplis/brazen.jpg",
+          src: "../../../assets/images/img-netplis/brazen.jpg",
           alt: "Brazen"
         },
         {
-          src: "../../../assets/img-netplis/don't_look_up.jpg",
+          src: "../../../assets/images/img-netplis/don't_look_up.jpg",
           alt: "Don't look up"
         },
         {
-          src: "../../../assets/img-netplis/just_go_whith_it.jpg",
+          src: "../../../assets/images/img-netplis/just_go_whith_it.jpg",
           alt: "Just go with it"
         },
         {
-          src: "../../../assets/img-netplis/mother_android.jpg",
+          src: "../../../assets/images/img-netplis/mother_android.jpg",
           alt: "Mother/Android"
         },
         {
-          src: "../../../assets/img-netplis/pets2.jpg",
+          src: "../../../assets/images/img-netplis/pets2.jpg",
           alt: "Pets2"
         }
       ]
