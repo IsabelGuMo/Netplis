@@ -1,16 +1,10 @@
 export interface Netplis {
-    navbar : Navbar,
-    hero: Hero,
+    navbar : Navbar;
+    hero: Film;
 }
 
 export interface Navbar {
-    title: string;
     logo: Image;
-}
-
-export interface Hero {
-    title: string;
-    imgGallery: Image[]
 }
 
 export interface Film {
