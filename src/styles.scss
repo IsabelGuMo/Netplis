@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+body{
+    font-family: "Roboto", sans-serif;
+    --text-color: black;
+    --background: whitesmoke;
+}
+
+body.dark-theme {
+    --text-color: rgb(95,95,95);
+    --background: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background: var(--background);
+    color: var(--text-color);
+    transition: background 1s ease-in-out, color 1s ease-in-out;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--text-color);
+    border-radius: 10px;
+    border: 2px solid black;
+}
