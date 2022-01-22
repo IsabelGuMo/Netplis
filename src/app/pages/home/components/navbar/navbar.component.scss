@@ -9,10 +9,20 @@ nav{
         padding: 10px;
         text-decoration: none;
         font-weight: bold;
-        color: red;
+        color: crimson;
     }
     img {
         padding: 10px;
+    }
+    button {
+        padding: 0;
+        border: none;
+        font: inherit;
+        color: inherit;
+        background-color: transparent;
+        cursor: pointer;
+        padding: 2px;
+        margin-right: 10px;
     }
     
 }

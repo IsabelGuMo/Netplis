@@ -8,9 +8,14 @@ import { Navbar } from '../../models/Netplis';
 })
 export class NavbarComponent implements OnInit {
 @Input() public navbar!: Navbar
+public btnText: string = "🌙"
   constructor() { }
 
   ngOnInit(): void {
   }
 
+ public setDakTheme(): void {
+   document.body.classList.toggle('dark-theme');
+   this.btnText == '🌙' ? this.btnText = '💡' : this.btnText = '🌙'
+ }
 }

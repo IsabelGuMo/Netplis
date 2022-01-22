@@ -8,10 +8,18 @@
     .hero-gallery {
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
 
         li {
             display: flex;
             align-items: center;
+
+            h3 {
+                color: var(--background);
+                font-size: 14rem;
+                text-shadow: -3px -3px 0 var(--stroke), 3px -3px 0 var(--stroke), -3px 3px 0 var(--stroke), 3px 3px 0 var(--stroke);
+                margin-right: -90px;
+            }
         }
 
         img {

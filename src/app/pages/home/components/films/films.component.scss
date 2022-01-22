@@ -8,12 +8,8 @@
     .film-gallery {
         display: flex;
         flex-direction: row;
-
-        li {
-            display: flex;
-            align-items: center;
-        }
-
+        justify-content: space-evenly;
+  
         img {
             padding: 5px;
             width: 300px;
