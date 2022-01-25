@@ -1,4 +1,8 @@
 .film {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     margin-left: 10px;
 
     h2 {
@@ -6,9 +10,10 @@
     }
 
     .film-gallery {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
   
         img {
             padding: 5px;
